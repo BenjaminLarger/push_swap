@@ -16,7 +16,7 @@ My strategy to complete the algo for big statset has been to make a copy of the 
 
 
 Results
-Dataset size = 500 => less than 8000 moves
-Dataset size = 100 => less than 900 moves
+Dataset size = 500 => less than 7000 moves
+Dataset size = 100 => less than 730 moves
 Dataset size = 5 => less than 10 moves
 Datset size = 3 => less than 4 moves
