@@ -20,4 +20,3 @@ To get started with `push_swap`, clone the repository and compile the program us
 git clone https://github.com/BenjaminLarger/push_swap.git
 cd push_swap
 make
-./push_swap
