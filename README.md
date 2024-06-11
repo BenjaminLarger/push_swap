@@ -1,22 +1,22 @@
-Guys,
+# push_swap
 
-You will find in this repesitory my push_swap project.
+`push_swap` is a project in the 42 curriculum that involves sorting a stack of integers using a limited set of operations. This project helps you understand sorting algorithms, stack manipulation, and algorithmic optimization in C.
 
-The principle is to order a list of integer passed through the terminal command, but some restricitons are imposed to complete this project.
+## Overview
 
-Firstly, you only can use two stack to order the integers.
+`push_swap` requires you to develop a program that sorts data on a stack with a minimal number of operations. The project covers key concepts such as data structures, algorithm design, and complexity analysis.
 
-Seccondly, you have a limited move possibles to order the integers:
+## Features
 
-To complete this projet, you will have to implement two different algorithms: one for small datasets and one for big ones.
+- **Stack Operations:** Implement basic stack operations like `sa`, `sb`, `ss`, `pa`, `pb`, `ra`, `rb`, `rr`, `rra`, `rrb`, and `rrr`.
+- **Sorting Algorithms:** Develop efficient sorting algorithms to sort the stack with the least number of moves.
+- **Optimization:** Optimize the sorting process to handle larger data sets within reasonable time limits.
 
-The algo for small dataset is quite simple to implement but must be highly efficient.
+## Getting Started
 
-My strategy to complete the algo for big statset has been to make a copy of the inputs into an array of integers, to order it using quick sort algorithm. Then I know exactly the exact position of each element. I have then create chunks to pass from stack a to stack b to make a first sort. Then I pass elements from stack b to stack a, 3 by 3, using an efficient 3 sorting algorithm to put each element at the exact position.
+To get started with `push_swap`, clone the repository and compile the program using the provided Makefile:
 
-
-Results
-Dataset size = 500 => less than 7000 moves
-Dataset size = 100 => less than 730 moves
-Dataset size = 5 => less than 10 moves
-Datset size = 3 => less than 4 moves
+```bash
+git clone https://github.com/BenjaminLarger/push_swap.git
+cd push_swap
+make
